@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <ListView x:Name="VypisVsech" HorizontalAlignment="Left" Height="196" Margin="10,10,0,0" VerticalAlignment="Top" Width="284" SelectionChanged="PrintText" Grid.Column="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="LAUNCH THAT SHIIIIIIIIIIT" HorizontalAlignment="Left" Margin="41,211,0,0" VerticalAlignment="Top" Width="216" Height="40" Click="Button_Click" Grid.Row="1"/>
+
+        <Label Content="Description:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="316,10,0,0" Width="192" FontWeight="Bold" Height="24"/>
+
+        <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="316,131,0,0" Width="192" FontWeight="Bold"/>
+        <Label Content="Name of projet" x:Name="NameLabel" HorizontalAlignment="Center" Margin="316,157,51.4,0" VerticalAlignment="Top" Height="28" Width="151"/>
+
+        <Label Content="Path:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="316,185,0,0" Width="192" FontWeight="Bold"/>
+        <Label Content="Path of file" x:Name="AllFilesLabel" HorizontalAlignment="Center" Margin="316,211,0.4,0" VerticalAlignment="Top" Height="40" Width="202"/>
+        <TextBox x:Name="Description" HorizontalAlignment="Left" Height="87" Margin="316,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="192" TextChanged="TextBox_TextChanged"/>
+
     </Grid>
 </Window>

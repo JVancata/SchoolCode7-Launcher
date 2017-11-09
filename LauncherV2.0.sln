@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherV1.0", "LauncherV1.0\LauncherV1.0.csproj", "{5E8A556D-9688-48CA-8B97-55A148640C1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LauncherV2.0", "LauncherV1.0\LauncherV2.0.csproj", "{5E8A556D-9688-48CA-8B97-55A148640C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
